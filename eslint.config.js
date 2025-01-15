@@ -35,11 +35,16 @@ export default tseslint.config(
 		files: ["**/*.js", "**/*.ts"],
 		languageOptions: {
 			parserOptions: {
-				projectService: { allowDefaultProject: ["*.config.*s"] },
+				projectService: {
+					allowDefaultProject: ["*.config.*s", "bin/index.js"],
+				},
 				tsconfigRootDir: import.meta.dirname,
 			},
 		},
 		rules: {
+			"@typescript-eslint/consistent-indexed-object-style": "off",
+			"@typescript-eslint/no-dynamic-delete": "off",
+
 			// Stylistic concerns that don't interfere with Prettier
 			"logical-assignment-operators": [
 				"error",

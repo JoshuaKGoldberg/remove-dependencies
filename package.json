@@ -2,6 +2,10 @@
 	"name": "remove-dependencies",
 	"version": "0.0.0",
 	"description": "Quickly removes dependencies from your package.json file. 🔪",
+	"homepage": "https://github.com/JoshuaKGoldberg/remove-dependencies#readme",
+	"bugs": {
+		"url": "https://github.com/JoshuaKGoldberg/remove-dependencies/issues"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/JoshuaKGoldberg/remove-dependencies.git"
@@ -13,9 +17,13 @@
 	},
 	"type": "module",
 	"main": "lib/index.js",
+	"bin": {
+		"remove-dependencies": "bin/index.js"
+	},
 	"files": [
 		"LICENSE.md",
 		"README.md",
+		"bin/",
 		"lib/",
 		"package.json"
 	],
@@ -34,6 +42,7 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
+	"dependencies": {},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.4.1",
 		"@eslint/js": "9.17.0",
@@ -74,5 +83,7 @@
 	},
 	"publishConfig": {
 		"provenance": true
-	}
+	},
+	"readme": "ERROR: No README data found!",
+	"_id": "remove-dependencies@0.0.0"
 }

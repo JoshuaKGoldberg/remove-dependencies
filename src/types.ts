@@ -1,5 +1,9 @@
-export interface GreetOptions {
-	logger?: (message: string) => void;
-	message: string;
-	times?: number;
+export interface PackageDataLike {
+	dependencies?: PackageDependenciesLike;
+	devDependencies?: PackageDependenciesLike;
+	peerDependencies?: PackageDependenciesLike;
+}
+
+export interface PackageDependenciesLike {
+	[i: string]: string | undefined;
 }

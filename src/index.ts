@@ -1,2 +1,2 @@
-export * from "./greet.js";
-export * from "./types.js";
+export * from "./removeDependencies.js";
+export type * from "./types.js";

@@ -20,15 +20,60 @@
 
 ## Usage
 
+You can invoke `remove-dependencies` on the CLI or via its programmatic Node.js API.
+It will remove all requested dependencies from `dependencies`, `devDependencies`, and `peerDependencies`.
+
+### CLI
+
+```shell
+npx remove-dependencies
+```
+
+`npx remove-dependencies` takes in any number of package names to remove from your `package.json`.
+It will remove all requested dependencies from `dependencies`, `devDependencies`, and `peerDependencies`.
+
+For example, to remove the `mocha` and `jest` packages:
+
+```shell
+npx remove-dependencies mocha jest
+```
+
+That command may change your `package.json` on disk.
+
+### Node.js API
+
 ```shell
 npm i remove-dependencies
 ```
 
-```ts
-import { greet } from "remove-dependencies";
+`remove-dependencies` exports a `removeDependencies` function that takes in any number of package names to remove from your `package.json`.
+It will return an object with all requested dependencies removed from `dependencies`, `devDependencies`, and `peerDependencies`.
 
-greet("Hello, world! 💖");
+```ts
+import { removeDependencies } from "remove-dependencies";
+
+const packageData = {
+	dependencies: {
+		// ...
+	},
+	// ...
+};
+
+const removedData = removeDependencies(packageData);
+
+// { dependencies: ... }
+console.log(removedData);
 ```
+
+## Why?
+
+Usually, you can `npm uninstall` / `pnpm uninstall` / `yarn remove` packages away.
+But those fully remove dependencies, including changing your `node_modules/`, and will throw an error if the dependency isn't found.
+
+`remove-dependencies` ignores any dependencies not found and only changes your `package.json` file.
+It also operates on all three of `dependencies`, `devDependencies`, and `peerDependencies` at once.
+
+In other words, use `remove-dependencies` in scripts that should quickly modify a `package.json` file without installing or uninstalling.
 
 ## Development
 
