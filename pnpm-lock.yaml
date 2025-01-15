@@ -33,7 +33,7 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
       cspell:
-        specifier: ^8.17.2
+        specifier: 8.17.2
         version: 8.17.2
       eslint:
         specifier: 9.17.0
@@ -78,7 +78,7 @@ importers:
         specifier: 0.43.0
         version: 0.43.0
       prettier:
-        specifier: ^3.4.2
+        specifier: 3.4.2
         version: 3.4.2
       prettier-plugin-curly:
         specifier: 0.3.1
