@@ -1,6 +1,6 @@
 {
 	"name": "remove-dependencies",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Quickly removes dependencies from your package.json file. 🔪",
 	"homepage": "https://github.com/JoshuaKGoldberg/remove-dependencies#readme",
 	"bugs": {
@@ -84,6 +84,5 @@
 	"publishConfig": {
 		"provenance": true
 	},
-	"readme": "ERROR: No README data found!",
-	"_id": "remove-dependencies@0.0.0"
+	"readme": "ERROR: No README data found!"
 }
