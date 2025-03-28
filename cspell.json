@@ -10,6 +10,8 @@
 		"pnpm-lock.yaml"
 	],
 	"words": [
+		"Quickly",
+		"Remove",
 		"access",
 		"apexskier",
 		"automerge",
@@ -19,8 +21,6 @@
 		"markdownlintignore",
 		"preset",
 		"public",
-		"Quickly",
-		"Remove",
 		"remove-dependencies",
 		"repository",
 		"title",
