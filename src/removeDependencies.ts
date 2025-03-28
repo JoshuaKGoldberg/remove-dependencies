@@ -3,7 +3,6 @@ import { PackageDataLike } from "./types.js";
 const removalKeys = [
 	"dependencies",
 	"devDependencies",
-	"peerDependencies",
 ] as const satisfies (keyof PackageDataLike)[];
 
 export function removeDependencies(

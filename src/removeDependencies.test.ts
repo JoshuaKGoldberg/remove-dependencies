@@ -18,7 +18,6 @@ describe("removeDependencies", () => {
 		const packageData = {
 			dependencies: { other: "1.2.3" },
 			devDependencies: { other: "1.2.3" },
-			peerDependencies: { other: "1.2.3" },
 			version: "0.0.0",
 		};
 
@@ -31,7 +30,6 @@ describe("removeDependencies", () => {
 		const packageData = {
 			dependencies: { first: "1.2.3", other: "1.2.3" },
 			devDependencies: { other: "1.2.3", second: "1.2.3" },
-			peerDependencies: { first: "1.2.3", other: "1.2.3", second: "1.2.3" },
 			version: "0.0.0",
 		};
 
@@ -40,7 +38,6 @@ describe("removeDependencies", () => {
 		expect(removed).toEqual({
 			dependencies: { other: "1.2.3" },
 			devDependencies: { other: "1.2.3" },
-			peerDependencies: { other: "1.2.3" },
 			version: "0.0.0",
 		});
 	});
@@ -49,7 +46,6 @@ describe("removeDependencies", () => {
 		const packageData = {
 			dependencies: { first: "1.2.3" },
 			devDependencies: { first: "1.2.3", other: "1.2.3" },
-			peerDependencies: { first: "1.2.3", second: "1.2.3" },
 			version: "0.0.0",
 		};
 
@@ -58,7 +54,6 @@ describe("removeDependencies", () => {
 		expect(removed).toEqual({
 			dependencies: {},
 			devDependencies: { other: "1.2.3" },
-			peerDependencies: {},
 			version: "0.0.0",
 		});
 	});
