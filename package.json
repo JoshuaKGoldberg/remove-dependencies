@@ -1,6 +1,6 @@
 {
 	"name": "remove-dependencies",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Quickly removes dependencies from your package.json file. 🔪",
 	"homepage": "https://github.com/JoshuaKGoldberg/remove-dependencies#readme",
 	"bugs": {
