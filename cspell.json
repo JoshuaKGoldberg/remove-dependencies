@@ -2,29 +2,38 @@
 	"dictionaries": ["npm", "node", "typescript"],
 	"ignorePaths": [
 		".all-contributorsrc",
-		".github",
 		"CHANGELOG.md",
 		"coverage",
+		"dist",
 		"lib",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
 	"words": [
+		"JoshuaKGoldberg",
+		"MatteoGabriele",
 		"Quickly",
 		"Remove",
 		"access",
+		"agentscan",
 		"apexskier",
 		"automerge",
 		"description",
 		"directory",
 		"joshuakgoldberg",
 		"markdownlintignore",
+		"mshick",
+		"octoguide",
+		"peakoss",
 		"preset",
 		"public",
 		"remove-dependencies",
 		"repository",
+		"stefanzweifel",
 		"title",
 		"tseslint",
-		"usage"
+		"usage",
+		"zizmor",
+		"zizmorcore"
 	]
 }

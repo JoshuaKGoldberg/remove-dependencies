@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
-import { removeDependencies } from "./removeDependencies.js";
-import { PackageDataLike } from "./types.js";
+import { removeDependencies } from "./removeDependencies.ts";
+import { PackageDataLike } from "./types.ts";
 
-describe("removeDependencies", () => {
+describe(removeDependencies, () => {
 	it("returns the same shape when no dependency properties exist", () => {
 		const packageData = {
 			version: "0.0.0",

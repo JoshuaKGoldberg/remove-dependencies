@@ -1,7 +1,7 @@
 import * as fs from "node:fs/promises";
 
-import { removeDependencies } from "./removeDependencies.js";
-import { PackageDependenciesLike } from "./types.js";
+import { removeDependencies } from "./removeDependencies.ts";
+import { PackageDependenciesLike } from "./types.ts";
 
 export async function cli(args: string[]) {
 	const packageData = JSON.parse(

@@ -8,7 +8,7 @@
 - don't remove peerDependencies ([28be421](https://github.com/JoshuaKGoldberg/remove-dependencies/commit/28be421dfa73960ef6ed39e1801d05954527875e)), closes [#56](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/56)
 - don't remove peerDependencies ([#56](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/56)) ([d0d288f](https://github.com/JoshuaKGoldberg/remove-dependencies/commit/d0d288f0b744ddcfb7f1846cc7baf79da03d5a83)), closes [#55](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/55)
 
-# 0.1.0 (2025-01-15)
+## 0.1.0 (2025-01-15)
 
 ### Features
 
