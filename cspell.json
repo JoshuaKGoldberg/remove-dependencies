@@ -6,7 +6,6 @@
 		"CHANGELOG.md",
 		"coverage",
 		"dist",
-		"lib",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
@@ -21,8 +20,6 @@
 		"automerge",
 		"description",
 		"directory",
-		"joshuakgoldberg",
-		"markdownlintignore",
 		"mshick",
 		"octoguide",
 		"peakoss",
