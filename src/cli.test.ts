@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 
-import { cli } from "./cli.js";
+import { cli } from "./cli.ts";
 
 const mockReadFile = vi.fn();
 const mockWriteFile = vi.fn();
@@ -14,7 +14,7 @@ vi.mock("node:fs/promises", () => ({
 	},
 }));
 
-describe("cli", () => {
+describe(cli, () => {
 	it("writes removed dependencies back", async () => {
 		mockReadFile.mockResolvedValueOnce(
 			JSON.stringify(

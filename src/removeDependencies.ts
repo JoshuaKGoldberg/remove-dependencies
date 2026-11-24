@@ -1,4 +1,4 @@
-import { PackageDataLike } from "./types.js";
+import { PackageDataLike } from "./types.ts";
 
 const removalKeys = [
 	"dependencies",

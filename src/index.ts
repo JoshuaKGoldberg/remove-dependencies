@@ -1,2 +1,2 @@
-export * from "./removeDependencies.js";
-export type * from "./types.js";
+export * from "./removeDependencies.ts";
+export type * from "./types.ts";
