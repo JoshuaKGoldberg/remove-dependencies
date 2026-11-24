@@ -18,7 +18,8 @@
 	"sideEffects": false,
 	"type": "module",
 	"exports": {
-		".": "./dist/index.js"
+		".": "./dist/index.js",
+		"./bin/index.js": "./bin/index.js"
 	},
 	"main": "./dist/index.js",
 	"bin": {
