@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/JoshuaKGoldberg/remove-dependencies/compare/0.1.1...0.1.2) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#452](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/452)) ([37b3cb3](https://github.com/JoshuaKGoldberg/remove-dependencies/commit/37b3cb3e9e927ee740780fd0c4ad312fbc952d13)), closes [#451](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/451)
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/remove-dependencies/compare/0.1.0...0.1.1) (2025-03-28)
 
 ### Bug Fixes
