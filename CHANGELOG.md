@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/JoshuaKGoldberg/remove-dependencies/compare/0.1.2...0.1.3) (2026-11-24)
+
+### Bug Fixes
+
+- export bin/index.js ([#461](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/461)) ([8a0e4bf](https://github.com/JoshuaKGoldberg/remove-dependencies/commit/8a0e4bfabeb7c30aff4fb69ba58f04ac252960c0)), closes [#460](https://github.com/JoshuaKGoldberg/remove-dependencies/issues/460)
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/remove-dependencies/compare/0.1.1...0.1.2) (2026-11-24)
 
 ### Bug Fixes
